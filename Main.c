@@ -1,28 +1,10 @@
-
-// GOKALP �AYCI
-// 2021280052
-// Bilgisayar Bilimleri
-// bitirme tarihi 19.05.2022
-
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
 #include <stdbool.h>
 
-
-// Notlar
-/* 
-
-terminalde program �al���r haldeyken karakterlerin do�ru g�z�kmesi i�in de�i�ken adlar�n�, yorumlar� k�saca hemen hemen her �eyi ing 
-yazd�m
-
-�devde ba��l liste kullanarak yap�n denmesine ra�men slaytlarda ba��l listeye dair �ok az i�erik g�rd�m bu y�zden github, stackoverflow gibi yerlerden yararland�m.
-i�ime yarayabilecek fonksiyonlar� github dan ayr� ayr� alarak nas�l kullanabilece�imi daha k���k �rneklerde ��rendim.
-single linked list(ba��l liste) konusunda; node olu�turma, listenin ba��na, sonuna node ekleme, program bitti�inde haf�zay� temizleme, basit sorting algoritmas� kurma vb
-fonksiyonlar olu�turmay� ��rendim. ayn� program� daha az kodla linked list kullanmadan array ler ile strcpy strcmp gibi fonksiyonlar� nested for loop i�inde kullanarak  sorting
-yaparak da yazd�m istenirse atabilirim onu da.  
+/*
 -------------------------------------
 Functions That I Used
 
@@ -40,17 +22,6 @@ Functions That I Used
 
 
 */
-
-
-
-/*
-Ba?ly liste kullanarak bir telefon defterine soyady syrasyna g�re kayyt ekleyen bir C programy yazynyz.
-Yazdy?ynyz program bir ba?ly liste olu?turmaly ve kullanycydan �nce kayyt sayysyny daha sonra belirtilen
-sayyda ad, soyad ve telefon numarasy bilgilerini almalydyr. Olu?turaca?ynyz bir ekle fonksiyonu
-yardymyyla alynan her bir kayyt i�in telefon defterinde soyadlaryn harf syrasyna g�re uygun yeri
-bularak oraya yeni kaydy eklemelidir. B�t�n kayytlar uygun yere yerle?tirildikten sonra telefon defterindeki b�t�n kayytlar ekrana yazdyrylmalydyr.
- */
-
 
 
 typedef struct node {
